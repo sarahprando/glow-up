@@ -7,14 +7,16 @@
     list-style: none;
 }
 
-.nav-link {
+.nav-link  {
     color: #474740;
     text-transform: capitalize;
     text-decoration: none;
     width: 20rem;
+    
 }
 
 .nav-link:hover {
+    box-shadow: 0 0 8px 3px #9B9073;
     background: #474740;
     color: #fff;
 }
@@ -25,7 +27,22 @@ footer a {
 }
 
 footer a:hover {
-    color: #9B9073;
+    color: #474740;
+    text-shadow: 0.1em 0.1em 0.2em #9B9073;
     text-decoration: none;
 }
 
+@media (max-width: 400px) {
+    .title h1 {
+        font-size: 2rem;
+    }
+
+    .title p {
+        font-size: 1rem;
+    }
+
+    .nav-link {
+       width: 15rem;
+       font-size: 0.95rem;
+    }
+}
