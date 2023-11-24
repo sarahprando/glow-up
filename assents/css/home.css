@@ -9,6 +9,8 @@
 
 .nav-link  {
     color: #474740;
+    border-radius: 0.3rem;
+    border: solid 1px #474740;
     text-transform: capitalize;
     text-decoration: none;
     width: 20rem;
@@ -17,6 +19,7 @@
 
 .nav-link:hover {
     box-shadow: 0 0 8px 3px #9B9073;
+    border-radius: 0.3rem;
     background: #474740;
     color: #fff;
 }
@@ -34,7 +37,7 @@ footer a:hover {
 
 @media (max-width: 400px) {
     .title h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     .title p {
