@@ -11,5 +11,11 @@
     color: #474740;
     text-transform: capitalize;
     text-decoration: none;
+    width: 20rem;
+}
+
+.nav-link:hover {
+    background: #474740;
+    color: #fff;
 }
 
