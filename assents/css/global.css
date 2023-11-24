@@ -1,9 +1,11 @@
 body {
+    font-family: 'Comfortaa', sans-serif;
     background: #f4eee2;
     margin: 0;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #474740;
+    font-weight: bold;
 }
