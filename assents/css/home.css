@@ -1,0 +1,15 @@
+.title p {
+    text-transform: uppercase;
+    color: #474740;
+}
+
+.nav {
+    list-style: none;
+}
+
+.nav-link {
+    color: #474740;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
