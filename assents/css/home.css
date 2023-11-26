@@ -35,6 +35,17 @@
     color: #fff;
 }
 
+.carousel-item img {
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+.carousel-inner {
+    text-align: center;
+
+}
+
 footer a {
     color: #474740;
     text-decoration: none;
@@ -44,12 +55,6 @@ footer a:hover {
     color: #474740;
     text-shadow: 0.1em 0.1em 0.2em #9B9073;
     text-decoration: none;
-}
-
-section img {
-    height: 400px;
-    border-radius: 5px;
-    padding: 5px;
 }
 
 @media (max-width: 400px) {
@@ -62,7 +67,7 @@ section img {
     }
 
     .nav-link {
-       width: 15rem;
-       font-size: 0.95rem;
+        width: 15rem;
+        font-size: 0.95rem;
     }
 }
