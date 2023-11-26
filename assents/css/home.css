@@ -20,8 +20,9 @@
 .nav-link:hover {
     box-shadow: 0 0 8px 3px #9B9073;
     border-radius: 0.3rem;
-    background: #474740;
-    color: #fff;
+    border: none;
+    color: #474740;
+    transform: translateX(2px) scale(1.0);
 }
 
 footer a {
@@ -37,8 +38,8 @@ footer a:hover {
 
 section img {
     height: 400px;
-    width: 100%;
     border-radius: 5px;
+    padding: 5px;
 }
 
 @media (max-width: 400px) {
