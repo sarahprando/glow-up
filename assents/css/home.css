@@ -3,26 +3,36 @@
     color: #474740;
 }
 
-.nav {
-    list-style: none;
+.home {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
 }
 
-.nav-link  {
+.navegation ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    gap: 30px;
+}
+
+.navegation a {
+    display: block;
     color: #474740;
     border-radius: 0.3rem;
     border: solid 1px #474740;
     text-transform: capitalize;
+    padding: 10px;
     text-decoration: none;
-    width: 20rem;
-    
 }
 
-.nav-link:hover {
+.navegation a:hover {
     box-shadow: 0 0 8px 3px #9B9073;
     border-radius: 0.3rem;
-    border: none;
-    color: #474740;
-    transform: translateX(2px) scale(1.0);
+    background: #474740;
+    color: #fff;
 }
 
 footer a {
